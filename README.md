@@ -1,6 +1,15 @@
 KDevelop Go Language support plugin
 -------------------------------------------------
 
+**UPDATE**
+
+Project has moved to [projects.kde.org](https://projects.kde.org/projects/playground/devtools/plugins/kdev-go/repository).
+Installation instructions below are still valid, except to get plugin sources run
+```
+git clone git://anongit.kde.org/kdev-go
+```
+
+
 This plugin introduces Go language support for KDevelop. Go is a programming language developed by Google, KDevelop is a free and open-source IDE developed by KDevelop community, available on most Unix-like systems and Microsoft Windows.
 
 Features
@@ -30,8 +39,8 @@ make && make install
 
 4) Install Go Plugin
 
-Download this repository,
 ``` 
+git clone git://anongit.kde.org/kdev-go
 mkdir kdev-go/build && cd kdev-go/build
 cmake -DCMAKE_PREFIX_PATH=`your KDevelop install dir` 
  -DCMAKE_INSTALL_PREFIX=`your KDevelop install dir` ../
