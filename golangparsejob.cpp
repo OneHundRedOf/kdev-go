@@ -31,9 +31,8 @@
 #include <QProcess>
 
 #include "parsesession.h"
-#include "duchain/declarationbuilder.h"
-#include "duchain/usebuilder.h"
-#include "godebug.h"
+#include "duchain/builders/declarationbuilder.h"
+#include "duchain/builders/usebuilder.h"
 
 QList<QString> GoParseJob::m_CachedSearchPaths;
 
