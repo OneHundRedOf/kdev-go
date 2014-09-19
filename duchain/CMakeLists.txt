@@ -8,6 +8,7 @@ include_directories(
 set(duchain_SRC
      declarationbuilder.cpp
      contextbuilder.cpp
+     typebuilder.cpp
      usebuilder.cpp
      goducontext.cpp
      expressionvisitor.cpp
