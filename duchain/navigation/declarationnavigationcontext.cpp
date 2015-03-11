@@ -351,7 +351,7 @@ void DeclarationNavigationContext::htmlFunction()
                     eventuallyMakeTypeLinks(fastCast<ArrayType*>(argType.constData())->elementType());
                 }else
                 {//this shouldn't happen
-                    kDebug() << "Variadic type was not resolved to slice type";
+                    qCDebug(DUCHAIN) << "Variadic type was not resolved to slice type";
                     eventuallyMakeTypeLinks( argType );
                 }
             }else

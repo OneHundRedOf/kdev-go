@@ -96,7 +96,6 @@ private:
      **/
     void handleLiteralsAndConversions(PrimaryExprAst* node);
 
-    DeclarationBuilder* m_builder;
     ParseSession* m_session;
     DUContext* m_context;
     DeclarationBuilder* m_builder;
